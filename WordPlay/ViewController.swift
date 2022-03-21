@@ -7,13 +7,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var Label2: UILabel!
+    
+    @IBOutlet weak var textOutlet: UITextField!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func Button(_ sender: Any)
+    {
+        var word = textOutlet.text
+        
+    }
+    
 }
 
