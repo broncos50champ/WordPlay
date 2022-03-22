@@ -24,6 +24,7 @@ class ViewController: UIViewController
     @IBAction func Button(_ sender: Any)
     {
         var word = textOutlet.text
+        Label2.text = word
         
     }
     
